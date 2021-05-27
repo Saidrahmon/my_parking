@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:parkovka/AppPages.dart';
 import 'package:parkovka/AppRoutes.dart';
+import 'package:parkovka/pages/enter/enterView.dart';
 
 void main() {
   runApp(MyApp());
@@ -13,7 +14,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return GetMaterialApp(
       debugShowCheckedModeBanner: false,
-      initialRoute: AppRoutes.home,
+      home: EnterView(),
       getPages: AppPages.pages,
     );
   }

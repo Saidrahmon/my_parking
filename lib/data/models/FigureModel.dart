@@ -5,7 +5,6 @@ class FigureModel{
   String namePark;
   double cost;
   String type = 'Feature';
-  //List properties = null;
   GeometryModel geometry;
 
   FigureModel({required this.namePark, required this.cost, required this.geometry});
